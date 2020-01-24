@@ -1,4 +1,3 @@
-use Illuminate\Support\Facades\Auth;
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -53,7 +52,7 @@ use Illuminate\Support\Facades\Auth;
                     @else
                     @if(Auth::user()->role =='admin') 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Panel Admin</a>
+                            <a class="nav-link" href="/admin">{{ __('Panel Admin') }}</a>
                         </li>  
                     @endif
                     <li class="nav-item dropdown">

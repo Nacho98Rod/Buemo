@@ -10,7 +10,7 @@ Inicio
     <!-- Heading Row -->
     <div class="row align-items-center my-5">
         <div class="col-lg-7">
-            <img class="img-fluid rounded mb-4 mb-lg-0" src="http://placehold.it/900x400" alt="">
+            <img class="img-fluid rounded mb-4 mb-lg-0" src="{{asset('img/900 x 400.jpg')}}" alt="">
         </div>
         <!-- /.col-lg-8 -->
         <div class="col-lg-5">

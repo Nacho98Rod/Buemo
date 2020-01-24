@@ -31,6 +31,10 @@ Route::get('/nosotros', function () {
     return view('nosotros');
 })->name('nosotros');
 
+Route::get('/admin', function () {
+    return view('admin.panel');
+})->middleware('admin');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

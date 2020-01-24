@@ -29,7 +29,7 @@ Nosotros
         <hr>
 
         <!-- Preview Image -->
-        <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
+        <img class="img-fluid rounded" src="{{asset('img/900 x 300.jpg')}}" alt="">
 
         <hr>
 
